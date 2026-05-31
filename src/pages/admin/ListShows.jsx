@@ -1,9 +1,11 @@
 import React from 'react'
+import Title from '../../components/admin/Title';
 
 const ListShows = () => {
   return (
-    <div>ListShows</div>
-  )
+<>
+    <Title text1="List" text2="Shows" />
+    </>  )
 }
 
 export default ListShows

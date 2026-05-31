@@ -5,6 +5,7 @@ import BlurCircle from '../components/BlurCircle'
 
 import timeFormat from '../lib/timeFormat'
 import dateFormat from '../lib/dateFormat'
+import Loading from '../components/Loading'
 
 const MyBooking = () => {
   const currency = import.meta.env.VITE_CURRENCY
@@ -52,7 +53,7 @@ const MyBooking = () => {
         </div>
       ))}
     </div>
-  ) : <LoaderCircle />
+  ) : <Loading />
 }
 
 export default MyBooking

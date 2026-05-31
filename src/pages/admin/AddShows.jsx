@@ -1,8 +1,11 @@
 import React from 'react'
+import Title from '../../components/admin/Title';
 
 const AddShows = () => {
   return (
-    <div>AddShows</div>
+    <>
+    <Title text1="Add" text2="Shows" />
+    </>
   )
 }
 
